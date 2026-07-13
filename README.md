@@ -19,7 +19,7 @@ movements, using real historical data.
 # Project Structure
 
 ```text
-vattenfall-energy-project/
+DE_Electricity_price_forecasting/
 ├── data/
 │   ├── raw/              # untouched data straight from APIs
 │   └── processed/        # cleaned, merged data
