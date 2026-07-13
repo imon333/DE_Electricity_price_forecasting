@@ -16,6 +16,9 @@ movements, using real historical data.
 - **[SMARD](https://www.smard.de/)** — free German electricity market data (day-ahead prices), provided by the Bundesnetzagentur, no API key required
 
 ## Project Structure
+# Project Structure
+
+```text
 vattenfall-energy-project/
 ├── data/
 │   ├── raw/              # untouched data straight from APIs
@@ -31,3 +34,4 @@ vattenfall-energy-project/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
