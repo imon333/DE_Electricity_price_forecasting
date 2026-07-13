@@ -16,3 +16,18 @@ movements, using real historical data.
 - **[SMARD](https://www.smard.de/)** — free German electricity market data (day-ahead prices), provided by the Bundesnetzagentur, no API key required
 
 ## Project Structure
+vattenfall-energy-project/
+├── data/
+│   ├── raw/              # untouched data straight from APIs
+│   └── processed/        # cleaned, merged data
+├── notebooks/            # exploration, EDA, quick experiments
+├── src/                  # reusable functions — the "real" code
+│   ├── fetch_weather.py
+│   ├── fetch_prices.py
+│   ├── clean_data.py
+│   └── model.py
+├── outputs/
+│   └── figures/          # saved charts
+├── requirements.txt
+├── README.md
+└── .gitignore
